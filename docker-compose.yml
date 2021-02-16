@@ -27,3 +27,5 @@ services:
       MYSQL_DATABASE: CAMEL
       MYSQL_USER: camel
       MYSQL_PASSWORD: abcdef
+    ports:
+      - "3306:3306"
